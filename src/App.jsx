@@ -1,6 +1,6 @@
 import styles from "./style";
 
-import {Navbar, Stats, Business, Billing, CardDeal, Testimonial, Clients, CTA, Footer} from './components'
+import {Navbar, Stats, Business, Billing, CardDeal, Testimonial, Clients, CTA, Footer, Hero} from './components'
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden text-secondary">
@@ -12,7 +12,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
     <div className={`${styles.boxWidth}`}>
-        HeroSection
+        <Hero />
     </div>
     </div>
 
